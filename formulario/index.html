@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+
+    <!--Preload cargar inmediatamente elementos que deben cargarse lo mas antes posible-->  
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                  <h1 class="logo__nombre no-margin centrar-texto">Dulce <span class="logo__bold">Paladar</span></h1>  
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin"> Blog de Café con Consejos y Cursos</h2>
+            <p>Aprende de los expertos con las mejores recetas y conceptos</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img loading="lazy" src="img/blog1.jpg" alt="imagen blog">
+                </div>  <!--lazy sirve para que cuando recargue uno y vea la pagina
+                se vea segun el scrool de la imagen -->  
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Como saber la calidad del Grano del Cafe</h4>
+                <div class="info">
+                    <p>Muchas personas disfrutan del cafe como una bebida de la mañana, y algunos de nosotros incluso necesitamos cafe para funcionar de manera correta
+                    en nuestro dia a dia.El cafe da el "Buzz" que necesitamos, pero para esto se necesita saber a ciencia cierta que tan bueno es el cafe que nos tomamos,
+                    para esto la calidad del grano del cafe es super importante.....</p>
+                </div>
+                     <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img loading="lazy"src="img/cafe_olla.jpg" alt="imagen blog">
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Cáfe de olla, la tradición Mexicana </h4>
+                <div class="info">
+                    <p>El café es una popular bebida en el mundo gracias a su característico y delicioso sabor amargo y particular efecto energizante. Existe prácticamente en todo el planeta,
+                     por eso cada país lo ha hecho suyo, con diversas preparaciones y recetas tradicionales. Tal es el caso de México, donde el café de olla, endulzado con piloncillo y 
+                     aromatizado con canela, es una de las elecciones favoritas de muchos para acompañar el postre o pan dulce......</p>
+               </div>
+                     <a href="entrada2.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img loading="lazy" src="img/blog3.jpg" alt="imagen blog">
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Beneficios del Café</h4>
+                <div class="info">
+                    <p>Un equipo de investigadores del Istituto di Ricerche Farmacologiche Mario Negri (Italia) realizaron un experimento que evidenció que el café es bueno para la salud 
+                    y particularmente para el hígado. Así, descubrieron que el consumo de café reduce el riesgo de cáncer de hígado en un 40%. Este resultado mejoró hasta más de un 50% si el 
+                    consumo se ampliaba a tres tazas de café al día.....</p>
+                </div>
+                     <a href="entrada3.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Sabias que... ?</h3>
+
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <h4 class="no-margin">Tecnicas de Extracción de Café</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">Sin limite</span>
+                    </p>
+                    <a href="extraccion_cafe.html" class="boton boton--secundario">Mas Información</a>
+                </li>
+
+                <li class="widget-curso">
+                    <h4 class="no-margin">3 Recetas de Café para este invierno</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">Sin limite</span>
+                    </p>
+                    <a href="recetas_cafe.html" class="boton boton--secundario">Mas Información</a>
+                </li>
+                <li class="widget-curso">
+                    <h4 class="no-margin">Historia del Café</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">Sin limite</span>
+                    </p>
+                    <a href="historia_cafe.html" class="boton boton--secundario">Mas Información</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+                <div class="barra">
+                    <a class="logo" href="index.html">
+                      <h1 class="logo__nombre no-margin centrar-texto">Dulce <span class="logo__bold">Paladar</span></h1>  
+                    </a>
+    
+                    <nav class="navegacion">
+                        <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                        <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                        <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                    </nav>
+                </div>       
+        </div>
+    </footer>
+    
+</body>
+</html>
