@@ -1,0 +1,7 @@
+Se uso Xampp para este proyecto
+
+Al instalarlo, se busca la carpeta htdocs,ahi se sube el proyecto para que funcione.
+
+Para la base de datos se pone localhost/phmyadmin
+
+Y para visualizarla seria localhost/formulario/index.html
