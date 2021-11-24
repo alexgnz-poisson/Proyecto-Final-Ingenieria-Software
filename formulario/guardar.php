@@ -9,7 +9,7 @@
 $conexion = mysqli_connect  ($servidor,$usuario,"") or die ("Error con el servidor de la Base de datos"); 
 
 
-//por si hay errors de conexion un mensaje "Error al conectarse a la Base de datos".
+//por si hay error de conexion un mensaje "Error al conectarse a la Base de datos".
 $db = mysqli_select_db($conexion, $basededatos) or die ("Error conexion al conectarse a la Base de datos");
 
 
